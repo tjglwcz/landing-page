@@ -96,7 +96,7 @@ body {
 /* CARDS */
 
 .cards {
-    padding: 16px 32px;
+    padding: 32px 16px;
     margin-bottom: 96px;
 }
 
@@ -134,4 +134,27 @@ body {
     text-align: center;
     font-size: 18px;
     color: #1f2937;
+}
+
+/* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 128px 16px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 16px;
+}
+
+.quote-signature {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+    margin-right: 10%;
 }
