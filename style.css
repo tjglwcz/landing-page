@@ -48,7 +48,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 50vw;
-    /* justify-content: space-between; */
 }
 
 .hero-text-title {
@@ -92,4 +91,47 @@ body {
     border-radius: 10px;
     font-weight: bold;
     font-size: 16px;
+}
+
+/* CARDS */
+
+.cards {
+    padding: 16px 32px;
+    margin-bottom: 96px;
+}
+
+.cards-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 8px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.card-copy {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
 }
