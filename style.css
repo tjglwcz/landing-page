@@ -10,12 +10,16 @@ body {
     justify-content: space-between;
 }
 
+
+
 /* HEADER */
 
+
+
 .header {
+    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
     padding: 8px 16px;
     align-items: center;
 }
@@ -36,6 +40,8 @@ body {
 }
 
 /* HERO */
+
+
 
 .hero {
     background-color: #1f2937;
@@ -200,6 +206,9 @@ body {
     border: 2px solid #f9faf8;
     border-radius: 10px;
 }
+
+/* FOOTER */
+
 
 .footer {
     background-color: #1f2937;
