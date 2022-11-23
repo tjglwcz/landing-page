@@ -200,3 +200,18 @@ body {
     border: 2px solid #f9faf8;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    color: #f9faf8;
+}
+
+.footer a {
+    color: #f9faf8;
+    margin-left: 5px;
+    margin-right: 5px;
+}
